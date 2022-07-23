@@ -1,0 +1,448 @@
+h1,
+h2,
+h3,
+h4,
+p{
+    margin-top: 0; 
+    margin-bottom: 0;
+      
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+button{
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+/* ======HEADER====== */
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #ECECEC;
+}
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        margin-right: 93px;
+    
+        color: #2196F3;
+}
+
+
+
+.contact-page{
+display: flex;
+align-items: center;
+margin-left: auto;
+margin-right: 50px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.logo-studio{
+ color:#000000;
+}
+
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+    .menu-link:hover,
+    .menu-link:focus{
+color: #2196F3;
+    }
+    .contact-mail,
+    .contact-phone-number{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+        
+            color: #757575;
+    }
+        .contact-mail:hover,
+        .contact-phone-number:hover,
+                .contact-mail:focus,
+                .contact-phone-number :focus{   
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 1.14;
+                    letter-spacing: 0.02em;
+                
+                    color: #2196F3;
+                }
+.contact-mail-icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.contact-phone-number-icon{
+    margin-right: 10px;
+    cursor: pointer;
+    color: currentColor;
+    
+}
+/* .contact-mail-icon:hover,
+.contact-phone-number-icon,
+.contact-mail-icon:focus,
+.contact-phone-number-icon{
+    
+    color: #2196F3;
+} */
+
+
+                /* =====/HEADER===== */
+
+                /* =====HERO===== */
+.hero{
+        max-width: 1600px;
+        margin: 0 auto;
+        
+        
+        background: #2F303A;
+}                
+
+.hero-section{
+        width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+        rgba(47, 48, 58, 0.4)),
+    url("../images/hero.img.jpg");
+    background-size: cover;
+    background-color: #C4C4C4; 
+}
+
+.effective-solutions{
+            width: 696px;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            
+            
+            
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            
+            margin: 0 auto;
+            
+            color: #FFFFFF;
+            /* background: #2F303A; */
+    }
+ .modal-button{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+    
+
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.88;
+        
+             display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        
+            color: #FFFFFF;
+        
+            border-radius: 4px;
+            background: #2196F3;
+
+        
+ } 
+ 
+ .modal-button:hover,
+ .modal-button:focus{
+    background-color: #188ce8;
+ }
+
+ .hero{
+    background: #2F303A;
+ }
+
+ 
+
+
+
+
+ /* =====/HERO===== */
+
+ /* ====== ЧЕМ МЫ ЗАНИМАЕМСЯ=====*/
+
+ .about-us-title{ 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;   
+}
+
+
+ /* ======BUTTON PORTFOLIO===== */
+
+ .button-portfolio{
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
+        
+        background: #F5F4FA;
+        color: #212121;
+    
+ }
+
+ .button-portfolio:hover,
+ .button-portfolio:focus{
+   color: #FFFFFF;
+   background: #2196F3;
+
+
+ }
+ /* ======Наши работы Портфолио===== */
+ .project-name{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-bottom: 4px;
+    
+        color: #212121;
+ }
+
+ .product-name{
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+ }
+
+ /* =====OUR ADVANTAGES===== */
+ 
+ .our-advantages{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-right: 30px;
+        margin-bottom: 10px;
+
+    
+        color: #212121;
+ }
+ 
+ .advantages-text{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        margin-right: 30px;
+    
+        color: #757575;
+ }
+
+ .our-advantages-block{
+    display: flex;
+    align-items: center;
+    padding-top: 94px;
+}
+    /* =======OUR TEAM======= */
+ 
+ .our-team{
+    background: #F5F4FA;
+    margin-bottom: 94px;
+ }
+ .our-team-titles{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   
+ }
+ 
+ .about-us{
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+        text-align: center;
+    
+        color: #212121;
+ }
+
+.our-team-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    /* justify-content: space-between; */
+    
+}
+
+/* =====спосіб №2====== */
+/* .ourteam-card :not(:last-child){
+    margin-right: 30px;
+} */
+
+
+ 
+ .name-our-team{
+       margin-bottom: 10px;
+       margin-top: 30px; 
+       font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+ }
+ .jobtitle-our-team{
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+ }
+ /* =======/OUR TEAM======= */
+ 
+ /* =====FOOTER===== */
+ 
+ .logo-footer{
+font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 20px;
+    color: #2196F3;
+ }
+ .logo-studio-footer{
+color: #FFFFFF;
+ }
+ .footer{
+    background: #2F303A;
+}
+.adress-footer{
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.mail-footer,
+.contact-phone-number-footer{
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.adress-footer :not(:last-child){
+    margin-bottom: 9px;
+}
+.current {
+    color: #2196F3;
+}
+
+/* ======PORTFOLIO PAGE====== */
+
+.main-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-work-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn-portfolio:not(:last-child){
+    margin-right: 8px;
+}
+.portfolio-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+
+
+
