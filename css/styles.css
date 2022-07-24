@@ -118,7 +118,7 @@ color: #2196F3;
         .contact-mail:hover,
         .contact-phone-number:hover,
                 .contact-mail:focus,
-                .contact-phone-number :focus{   
+                .contact-phone-number:focus{   
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 1.14;
@@ -129,20 +129,21 @@ color: #2196F3;
 .contact-mail-icon{
     margin-right: 10px;
     cursor: pointer;
+    fill: currentColor;
 }
 .contact-phone-number-icon{
     margin-right: 10px;
     cursor: pointer;
-    color: currentColor;
+    fill: currentColor;
     
 }
-/* .contact-mail-icon:hover,
-.contact-phone-number-icon,
-.contact-mail-icon:focus,
-.contact-phone-number-icon{
-    
-    color: #2196F3;
-} */
+.menu-item:hover,
+.menu-item:focus{
+color: #2196F3;
+}
+
+
+ 
 
 
                 /* =====/HEADER===== */
@@ -312,6 +313,8 @@ color: #2196F3;
     align-items: center;
     padding-top: 94px;
 }
+
+
     /* =======OUR TEAM======= */
  
  .our-team{
