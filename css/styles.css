@@ -314,8 +314,14 @@ color: #2196F3;
     padding-top: 94px;
 }
 
-
-    /* =======OUR TEAM======= */
+.advantages-card{
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    background-size: 270px 120px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+   /* =======OUR TEAM======= */
  
  .our-team{
     background: #F5F4FA;
@@ -367,13 +373,36 @@ color: #2196F3;
         color: #212121;
  }
  .jobtitle-our-team{
-        margin-bottom: 30px;
+        margin-bottom: 16px;
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
     
         color: #757575;
+ }
+ .social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FFFFFF;
+ }
+ .social-list-link:hover,
+ .social-list-link:focus{
+background-color: #2196F3;
+ }
+ 
+ .social-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;    
+ }
+ .social-list-icon{
+    fill: #AFB1B8;
  }
  /* =======/OUR TEAM======= */
  
