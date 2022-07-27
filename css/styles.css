@@ -231,11 +231,14 @@ color: #2196F3;
 
  /* ====== ЧЕМ МЫ ЗАНИМАЕМСЯ=====*/
 
- .about-us-title{ 
+ .section-card{
+    padding-bottom: 94px;
+ }
+ .we-doing{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 94px;   
-}
+    flex-wrap: wrap;
+ }
 
 
  /* ======BUTTON PORTFOLIO===== */
@@ -285,6 +288,11 @@ color: #2196F3;
  }
 
  /* =====OUR ADVANTAGES===== */
+
+ .about-us-title {
+     padding-top: 94px;
+     padding-bottom: 94px;
+ }
  
  .our-advantages{
         font-weight: 700;
@@ -307,26 +315,33 @@ color: #2196F3;
     
         color: #757575;
  }
+ .servises-title{
+    width: 270px;
+ }
 
  .our-advantages-block{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 94px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .advantages-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     background-color:#F5F4FA;
+    width: 270px;
+    height: 120px;
     border-radius: 4px;
-    background-size: 270px 120px;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
    /* =======OUR TEAM======= */
  
  .our-team{
     background: #F5F4FA;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .our-team-titles{
     background: #FFFFFF;
@@ -389,7 +404,7 @@ color: #2196F3;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
  }
  .social-list-link:hover,
  .social-list-link:focus{
@@ -429,45 +444,40 @@ background-color: #2196F3;
  .clients-link{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;         
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
     
  }
  .clients-link:hover,
  .clients-link:focus{
-    background: #2196F3;
- }
+    border-color: #2196F3;
+ } 
 .clients-icon:hover,
 .clients-icon:focus{
     fill: #2196F3;
 }
 
+.clients-list-item :hover .clients-icon,
+.clients-list-item :focus .clients-icon{
+    fill: #2196F3;
+}
 
-
- .clients-list{
+.clients-list{
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 94px;
  }
  .clients-icon{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     fill: #AFB1B8;
  }
- .clients-line{
-    box-sizing: border-box;
-        width: 170px;
-        height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        cursor: pointer;
- }
  
-
-
-
+ 
  
  /* =====FOOTER===== */
  
@@ -535,7 +545,7 @@ display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color:#FFFFFF;
+    background-color:rgba(255, 255, 255, 0.1);
 
 }
 .social-footer-list{
